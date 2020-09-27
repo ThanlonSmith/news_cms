@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block css %}
+    <style>
+        .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+            z-index: 2;
+            color: #fff;
+            background-color: #d8534f;
+            border-color: #d8534f;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <form method="post" enctype="multipart/form-data" novalidate>
+        <div class="form-group">
+            <label>标题</label>
+            {{ form.title }}
+            <!--等价于{{form.title(value=article.title)}}-->
+            {% for v in form.title.errors %}
+                <p style="color: red;font-weight: bold">{{ v }}</p>
+            {% endfor %}
+            <!--<input type="text" class="form-control" placeholder="标题不能为空！">-->
+        </div>
+        <div class="form-group">
+            <label>分类</label>
+            {{ form.cate_id }}
+            {% for v in form.cate_id.errors %}
+                <p style="color: red;font-weight: bold">{{ v }}</p>
+            {% endfor %}
+            <!--        <select name="" id="" class="form-control">-->
+            <!--            <option value="">科技</option>-->
+            <!--            <option value="">军事</option>-->
+            <!--        </select>-->
+        </div>
+        <div class="form-group">
+            <label>封面</label>
+            {{ form.logo }}
+            <!--<input type="file" class="form-control-static"> &lt;!&ndash;class="form-control-file"&ndash;&gt;-->
+            <img src="/static/images/uploads/{{ article.logo }}" data-src="holder.js/300x160" style="margin-top: 6px;">
+            {% for v in form.logo.errors %}
+                <p style="color: red;font-weight: bold">{{ v }}</p>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            <label>内容</label>
+            {{ form.content }}
+            {% for v in form.content.errors %}
+                <p style="color: red;font-weight: bold">{{ v }}</p>
+            {% endfor %}
+            <!--<textarea name="" id="content" style="height: 300px"></textarea>-->
+        </div>
+        {{ form.csrf_token }}
+        {{ form.submit }}
+        <!--    <input type="submit" value="发布" class="btn btn-primary">-->
+    </form>
+{% endblock %}
+{% block js %}
+    <script src="{{ url_for('static',filename='ueditor/ueditor.config.js') }}"></script>
+    <script src="{{ url_for('static',filename='ueditor/ueditor.all.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='ueditor/lang/zh-cn/zh-cn.js') }}"></script>
+    <script>
+        var ue = UE.getEditor("content");
+        $(document).ready(function () {
+            $("#m1").addClass("active");
+        });
+    </script>
+{% endblock %}

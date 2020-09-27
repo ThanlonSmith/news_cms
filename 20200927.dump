@@ -1,0 +1,108 @@
+-- MySQL dump 10.13  Distrib 8.0.21, for Linux (x86_64)
+--
+-- Host: localhost    Database: article_cms
+-- ------------------------------------------------------
+-- Server version	8.0.21-0ubuntu0.20.04.4
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `article`
+--
+
+DROP TABLE IF EXISTS `article`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `article` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) NOT NULL,
+  `logo` varchar(100) NOT NULL,
+  `content` text NOT NULL,
+  `addtime` datetime NOT NULL,
+  `user_id` int NOT NULL,
+  `cate_id` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `article`
+--
+
+LOCK TABLES `article` WRITE;
+/*!40000 ALTER TABLE `article` DISABLE KEYS */;
+INSERT INTO `article` VALUES (16,'贵州一辆大巴车冲进水库，车内有高考学生','202007071725147093ed2de18a4a018479cd6220c41811.jpeg','<p><img src=\"https://tukuimg.bdstatic.com/scrop/88f3c2a05deda60afa82b52452a17230.gif\"/></p>','2020-07-07 17:24:17',3,2),(17,'确认！华为将于年内推出台式主机：国产企业级CPU加持','20200924161642d519a71538264eeb93d9d0b91d2a9ee5.jpeg','<p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\"><span class=\"bjh-strong\" style=\"font-size: 18px; font-weight: 700;\">9月24日讯，根据界面新闻报道，在昨天举行的华为全联接大会2020期间，华为平板和PC产品线总裁王银锋证实，华为即将推出自有品牌的显示器产品，并将于年内正式推出首款商用台式主机产品。</span></span></p><p><span class=\"bjh-p\"><span class=\"bjh-strong\" style=\"font-size: 18px; font-weight: 700;\"><br/></span></span></p><p><img src=\"https://pics0.baidu.com/feed/503d269759ee3d6d7f121c734b8f39254d4aded6.jpeg?token=4b801ed15e6260f3b0305d621b838520\"/></p>','2020-09-24 16:16:42',1,1),(18,'解放军军机近日在台湾附近空域进行演习，国防部回应','202009242225558b67fb5e719348ddb4473ba596c0af7e.jpeg','<p><img src=\"https://pics1.baidu.com/feed/a5c27d1ed21b0ef47b82ab3ac76e05dd80cb3e98.jpeg?token=fb0d3ea08a6318f725deb3dc4fba5c7d\"/></p><p style=\"margin-top: 26px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">据国防部发布微信公号消息，9月24日下午，国防部举行例行记者会，国防部新闻局副局长、国防部新闻发言人谭克非大校答记者问。</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">记者：据媒体报道，解放军军机近日接连在台湾附近空域进行演习，台湾地区领导人对此回应称，大陆应保持克制。请问对此有何评论？</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">谭克非：台湾是中国不可分割的一部分。解放军在台海地区组织实兵演练，展现的是捍卫国家主权和领土完整的决心和能力，针对的是外部势力干涉和极少数“台独”分裂分子及其分裂活动。台民进党当局置广大台湾同胞的安危福祉于不顾，不断挑动两岸对立对抗，进行“谋独”挑衅，危害台海和平稳定，这一图谋注定不会得逞。如果“台独”分裂势力胆敢以任何名义、任何方式把台湾从中国分裂出去，我们必将不惜一切代价，坚决予以挫败。</span></p>','2020-09-24 22:25:55',1,2),(19,'今年中秋月“十五的月亮十六圆”，最圆时刻出现在凌晨','20200924222731f33f6661b993454fac726cd6055628ae.jpeg','<p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">新华社天津9月24日电（记者周润健）中秋节将至，又到赏月时。天文专家表示，今年中秋月“十五的月亮十六圆”，最圆时刻出现在10月2日（农历八月十六）凌晨5时5分。</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">中国天文学会会员、天津市天文学会理事史志成介绍，每逢农历初一，我们看不到月亮，叫“新月”，也叫“朔”；到了农历十五左右，我们可以看到圆圆的月亮，称为“满月”，也叫“望”。</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">根据农历历法规定，“朔”所在这一天为每月初一。但同是初一，“朔”可能发生在凌晨，或者上午、下午，也可能发生在晚上，而且每个朔望月本身也有长有短。这样，月亮最圆时刻的“望”最早可发生在农历十四的晚上，最迟可出现在农历十七的早上。但由于“朔”一定在农历的每月初一，“朔”之后平均起来要再经过14天18小时22分才是“望”，所以月亮最圆时刻的“望”以出现在农历十五、十六这两天居多，其中又以出现在农历十六为最多。</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">史志成说，今年中秋节与国庆节“喜相逢”，同时出现在10月1日这一天。今年农历八月中“望”的时刻出现在10月2日凌晨5时5分，所以中秋月是“十五的月亮十六圆”。</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">“虽然中秋月圆在十六，但十五的月亮肉眼看起来很接近正圆，如瑶台镜、白玉盘一般，圆润饱满，晶莹剔透，令人赏心悦目。只要天气晴好，10月1日晚，注定会是一个‘花好月圆’的美妙夜晚。”史志成说。</span></p><p><br/></p>','2020-09-24 22:27:31',1,2),(20,'商务部证实北京商务局已收到字节跳动技术出口许可申请','202009242228558c3425a3392445d2b16abb1ce0d26772.jpg','<p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">【环球时报-环球网报道 记者 倪浩】商务部新闻发言人高峰24日表示，北京市商务局已经收到北京字节跳动公司提交的技术出口许可申请。</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">在24日下午举行的新闻发布会上，有媒体据字节跳动公司发表声明称，根据《中华人民共和国技术进出口管理条例》和《中国禁止出口限制出口技术目录》规定，已经向北京市商务局提交了许可申请，正在等待北京市商务局的受理决定。请问商务部能否证实？申请能否被批准？</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">对此高峰回应说，据了解，北京市商务局已经收到北京字节跳动公司提交的技术出口许可申请，后续将按照相关规定和程序，依法依规处理。</span></p><p><br/></p>','2020-09-24 22:28:55',1,1),(21,'黄之锋赴警署报到时再被捕涉嫌非法集结','20200924223639659b9ec5be204abea7035feb0e17d30c.jpeg','<p><span style=\"color: rgb(51, 51, 51); font-family: arial; text-align: justify; background-color: rgb(255, 255, 255);\">【环球网快讯】据香港“星岛网”刚刚消息，乱港分子、“港独”组织前“香港众志”秘书长黄之锋今天（24日）中午到香港中区警署报到时再被拘捕，警方称黄之锋去年10月5日涉嫌参与未经批准集结及违反《禁止蒙面规例》。律师现正陪同录取口供。</span></p><p><img src=\"https://pics4.baidu.com/feed/cdbf6c81800a19d8f1882cb85d64d68ca71e462d.jpeg?token=96922b14bf91bf0134f0527453daa261\"/></p><p style=\"margin-top: 26px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">黄之锋资料图</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">另据香港“东网”报道，香港反对派成员古思尧也被以同样理由拘捕，被指涉嫌参与未经批准集结，现在在长沙湾警署。</span></p><p><br/><img src=\"https://pics0.baidu.com/feed/d1a20cf431adcbef220f8be6a7097adaa2cc9f40.png?token=79d17649dd4457a76f657f6ecd2372ef\"/></p><p style=\"margin-top: 26px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">古思尧（资料图）</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">“东网”称，黄之锋及古思尧将被落案控告相关控罪，案件将于9月30日在东区裁判法院提堂。</span></p>','2020-09-24 22:35:12',1,2),(22,'英伟达400亿买Arm排第一 还有哪些天价收购','202009242240359bce4319aae2431bbcbdfa241b2d8a1a.jpeg','<p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">最近英伟达400亿美元收购Arm的操作，成为半导体行业历史上最大并购案例。类似的通过收购跨越异界门槛的方式越来越频繁的出现在半导体产业，因为半导体科技在社会、经济中的价值影响愈发显著。</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">在2015年-2020年的5年时间中，全球半导体产业的并购动作从未停止。近日，某网站为用户整理了2015年至2020年全球半导体行业内重大的并购案：</span></p><p><img src=\"https://pics3.baidu.com/feed/10dfa9ec8a1363275a58ce6bf716f4eb09fac755.jpeg?token=e953841de5355128a5cb284aa7f302ca\"/></p><p><span style=\"color: rgb(51, 51, 51); font-family: arial; font-size: 18px; font-weight: 700; text-align: justify; background-color: rgb(255, 255, 255);\">集微网整理（按年代排列）</span></p><p><span style=\"color: rgb(51, 51, 51); font-family: arial; font-size: 18px; font-weight: 700; text-align: justify; background-color: rgb(255, 255, 255);\"><img src=\"https://pics4.baidu.com/feed/a71ea8d3fd1f41345ec41d424f86c1cdd0c85ebf.jpeg?token=1b26015223ba05edf9d844d73639b6e7\"/></span></p><p><span style=\"color: rgb(51, 51, 51); font-family: arial; font-size: 18px; font-weight: 700; text-align: justify; background-color: rgb(255, 255, 255);\"></span></p><p style=\"margin-top: 26px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><br/></p><p><br/></p>','2020-09-24 22:40:35',1,1),(23,'iGame RTX 3090首测 消费级显卡新里程碑','202009242244578b9fdfb1cba14d88a0fead8b8f17dbb4.jpeg','<p><span style=\"color: rgb(51, 51, 51); font-family: arial; text-align: justify; background-color: rgb(255, 255, 255);\">RTX 3090显卡在今天正式上市，七彩虹也顺势推出了自家Advanced系列新品：iGame Geforce RTX 3090 Advanced OC显卡，新的RTX 3090 Advanced系列在外观上明显比上一代朴素了不少，但依旧保留了特色的中部风扇能量核心RGB光效设计。而在性能上iGame GeForce RTX 3090 Advanced OC显卡也无愧于一款RTX 3090显卡，能够为用户实现畅玩8K的游戏体验以及更有效率的内容创作表现，当然如果你把iGame GeForce RTX 3090 Advanced OC显卡当成顶级的游戏卡实在有些大材小用，内容创作领域才是这款显卡的星辰大海。</span></p><p><img src=\"https://pics0.baidu.com/feed/241f95cad1c8a7865fcb36f4e0f49d3a72cf506f.jpeg?token=2f70ca29d9a2a3dcf09640f25abae8a9\"/></p><p style=\"margin-top: 26px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\"><span class=\"bjh-strong\" style=\"font-size: 18px; font-weight: 700;\">iGame GeForce RTX 3090 Advanced OC显卡</span></span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">01RTX 3090特点</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">在正式评测iGame GeForce RTX 3090 Advanced OC显卡之前，我们先来看一下RTX 3090显卡的特点。</span></p>','2020-09-24 22:44:57',1,1),(24,'干翻小米！红米Redmi智能手表入网，主打性价','202009242319003d7d420dd2194c1abd8d697b659b9228.png','<p><span class=\"bjh-strong\" style=\"font-size: 18px; color: rgb(51, 51, 51); font-weight: 700; font-family: arial; text-align: justify; background-color: rgb(255, 255, 255);\">9月24日讯，今天上午，根据微博博主@数码闲聊站的消息，一款设备型号为REDMIWT01的蓝牙设备现已入网，该机申请单位为小米通讯技术有限公司，</span><span class=\"bjh-strong\" style=\"font-size: 18px; color: rgb(51, 51, 51); font-weight: 700; font-family: arial; text-align: justify; background-color: rgb(255, 255, 255);\">核准编号2020-7139，</span><span class=\"bjh-strong\" style=\"font-size: 18px; color: rgb(51, 51, 51); font-weight: 700; font-family: arial; text-align: justify; background-color: rgb(255, 255, 255);\">发证日期为2020年7月29日。据悉，这款产品就是万众期待的Redmi智能手表。</span></p><p><span class=\"bjh-strong\" style=\"font-size: 18px; color: rgb(51, 51, 51); font-weight: 700; font-family: arial; text-align: justify; background-color: rgb(255, 255, 255);\"><br/></span></p><p><img src=\"https://pics4.baidu.com/feed/b7003af33a87e950d36747eeb3f30744faf2b417.jpeg?token=06a27c233e5ca45e9023871b2d789d92\"/></p><p style=\"margin-top: 26px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">事实上，Redmi一直都有进军智能可穿戴设备市场的想法，而今年上半年推出的红米智能手环就是他们的第一步。据悉，红米智能手环配备1.08英寸全彩方型屏幕，可选四色腕带，支持睡眠和运动监测等常规功能，缺少NFC功能。该手环售价99元，定位入门市场，充分凸显Redmi高性价比的产品特征。</span></p><p style=\"margin-top: 22px; margin-bottom: 0px; padding: 0px; line-height: 24px; color: rgb(51, 51, 51); text-align: justify; font-family: arial; white-space: normal; background-color: rgb(255, 255, 255);\"><span class=\"bjh-p\">谈到智能手表，小米其实并不陌生。小米在2019年推出旗下第一款智能手表产品——小米手表。根据小米介绍，小米手表配备基于安卓的MIUI for Watch系统，具备eSIM虚拟卡功能，可以独立打电话、使用流量上网、连接WiFi上网，并且内置应用商店，能够独立下载、安装应用，和其他功能单一的安卓手表形成差异化。</span></p><p><img src=\"https://pics6.baidu.com/feed/0df3d7ca7bcb0a468a0b6c06cea8a2236b60af33.jpeg?token=29c427bf00eb629f75ace6743eccca4a&s=84F6EA24F04613550ECD84960100C0C2\"/></p>','2020-09-24 23:19:00',1,1);
+/*!40000 ALTER TABLE `article` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `cate`
+--
+
+DROP TABLE IF EXISTS `cate`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `cate` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `title` (`title`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cate`
+--
+
+LOCK TABLES `cate` WRITE;
+/*!40000 ALTER TABLE `cate` DISABLE KEYS */;
+INSERT INTO `cate` VALUES (2,'社会'),(1,'科技');
+/*!40000 ALTER TABLE `cate` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `user`
+--
+
+DROP TABLE IF EXISTS `user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `user` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `pwd` varchar(100) NOT NULL,
+  `addtime` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `name` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user`
+--
+
+LOCK TABLES `user` WRITE;
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES (1,'erics','pbkdf2:sha256:150000$VpYqRoBN$e2da700d98fea88e57a19c5943523301ff74a03a9869fff1e4fe16af3f59edc0','2020-07-05 22:44:18'),(3,'thanlon','pbkdf2:sha256:150000$l7532E6n$cfd529b3e552fc90e571abc8830fba64ca33f67b6552923ee2f6e6d9fd5e2427','2020-07-05 23:55:15');
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2020-09-27 17:10:54

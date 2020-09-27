@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6675af4-2126-4761-9610-018a0a8d7878" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="a6d7ea6b-79bd-4475-9345-8c6bfb83055e" />
+  <component name="ProjectId" id="1e5v2fgRmEHAKmSadVklCkaf1SJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowDatabase Changes.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL-Insert-Statements.sql.groovy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/fonts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/ueditor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="create_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="news_cms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="forms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="news_cms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="news_cms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="news_cms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="news_cms" type="PythonConfigurationType" factoryName="Python">
+      <module name="news_cms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="news_cms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.forms" />
+        <item itemvalue="Python.create_app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6675af4-2126-4761-9610-018a0a8d7878" name="Default Changelist" comment="" />
+      <created>1593624062138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593624062138</updated>
+      <workItem from="1593624067907" duration="22562000" />
+      <workItem from="1593680079281" duration="837000" />
+      <workItem from="1593692090956" duration="11786000" />
+      <workItem from="1593736023325" duration="136000" />
+      <workItem from="1593778492884" duration="23000" />
+      <workItem from="1593796264824" duration="2328000" />
+      <workItem from="1593805082892" duration="16000" />
+      <workItem from="1593834097423" duration="8918000" />
+      <workItem from="1593851908922" duration="8170000" />
+      <workItem from="1593860091586" duration="19127000" />
+      <workItem from="1593915680247" duration="22887000" />
+      <workItem from="1593969235129" duration="4703000" />
+      <workItem from="1594020096822" duration="1989000" />
+      <workItem from="1594036778488" duration="16218000" />
+      <workItem from="1594091656269" duration="22113000" />
+      <workItem from="1594117569765" duration="1950000" />
+      <workItem from="1594266063484" duration="334000" />
+      <workItem from="1594610524529" duration="218000" />
+      <workItem from="1594610096113" duration="1028000" />
+      <workItem from="1594611132622" duration="65000" />
+      <workItem from="1594750894948" duration="725000" />
+      <workItem from="1594762959336" duration="304000" />
+      <workItem from="1594788275570" duration="22000" />
+      <workItem from="1594811746975" duration="233000" />
+      <workItem from="1600931601142" duration="4399000" />
+      <workItem from="1600946119454" duration="1892000" />
+      <workItem from="1600948821008" duration="35000" />
+      <workItem from="1600948861166" duration="6765000" />
+      <workItem from="1600966848445" duration="121000" />
+      <workItem from="1601139093101" duration="1591000" />
+      <workItem from="1601148785241" duration="198000" />
+      <workItem from="1601195841880" duration="999000" />
+      <workItem from="1601197419333" duration="132000" />
+      <workItem from="1601197570404" duration="150000" />
+    </task>
+    <task id="LOCAL-00001" summary="运行项目保证每个模板(页面)都可以被正常访问">
+      <created>1593626964870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593626964870</updated>
+    </task>
+    <task id="LOCAL-00002" summary="设计数据模型">
+      <created>1593701758281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593701758281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="注册功能的实现">
+      <created>1593842331349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593842331349</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新.gitignore">
+      <created>1593842628828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593842628828</updated>
+    </task>
+    <task id="LOCAL-00005" summary="登录功能的实现">
+      <created>1593859414397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593859414397</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update .gitignore">
+      <created>1593859657324</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593859657324</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update .gitignore">
+      <created>1593859802081</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593859802081</updated>
+    </task>
+    <task id="LOCAL-00008" summary="退出登录功能的实现">
+      <created>1593863865516</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593863865516</updated>
+    </task>
+    <task id="LOCAL-00009" summary="发布文章功能的实现">
+      <created>1593873740800</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593873740800</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update ueditor">
+      <created>1593874242378</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593874242378</updated>
+    </task>
+    <task id="LOCAL-00011" summary="文章列表的分页展示">
+      <created>1593954148675</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593954148675</updated>
+    </task>
+    <task id="LOCAL-00012" summary="添加Bootstrap字体文件">
+      <created>1593954998068</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593954998068</updated>
+    </task>
+    <task id="LOCAL-00013" summary="新增文章分类模型重新生成表结构">
+      <created>1593961275160</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593961275160</updated>
+    </task>
+    <task id="LOCAL-00014" summary="删除不需要的图片资源">
+      <created>1593961375381</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593961375381</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update .gitignore">
+      <created>1593965548954</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593965548954</updated>
+    </task>
+    <task id="LOCAL-00016" summary="为注册功能增加部分注释;上传code目录；新增test.py用于功能测试">
+      <created>1593965885276</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593965885276</updated>
+    </task>
+    <task id="LOCAL-00017" summary="增加注释;更新README.md">
+      <created>1593968266645</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593968266645</updated>
+    </task>
+    <task id="LOCAL-00018" summary="新增404页面">
+      <created>1593968467374</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1593968467374</updated>
+    </task>
+    <task id="LOCAL-00019" summary="404找不到页面">
+      <created>1593972038758</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1593972038758</updated>
+    </task>
+    <task id="LOCAL-00020" summary="刷新页面实时更新分类信息">
+      <created>1594040894439</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1594040894439</updated>
+    </task>
+    <task id="LOCAL-00021" summary="更新404页面">
+      <created>1594043723534</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594043723534</updated>
+    </task>
+    <task id="LOCAL-00022" summary="优化登录功能">
+      <created>1594094286115</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594094286115</updated>
+    </task>
+    <task id="LOCAL-00023" summary="优化添加文章功能">
+      <created>1594094512584</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1594094512584</updated>
+    </task>
+    <task id="LOCAL-00024" summary="新建优化添加文章功能的PR">
+      <created>1594097791125</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1594097791125</updated>
+    </task>
+    <task id="LOCAL-00025" summary="优化文章分类显示">
+      <created>1594099275678</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1594099275678</updated>
+    </task>
+    <task id="LOCAL-00026" summary="完成文章的删除功能">
+      <created>1594103824563</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1594103824563</updated>
+    </task>
+    <task id="LOCAL-00027" summary="文章的编辑信息的展示">
+      <created>1594105956371</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1594105956371</updated>
+    </task>
+    <task id="LOCAL-00028" summary="完成文章编辑功能">
+      <created>1594114003874</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1594114003874</updated>
+    </task>
+    <task id="LOCAL-00029" summary="访问权限控制功能的实现">
+      <created>1594115919391</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1594115919391</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Update README.md">
+      <created>1594266160103</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1594266160103</updated>
+    </task>
+    <task id="LOCAL-00031" summary="添加数据库和Python依赖文件">
+      <created>1594266231574</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1594266231574</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="登录功能的实现" />
+    <MESSAGE value="退出登录功能的实现" />
+    <MESSAGE value="发布文章功能的实现" />
+    <MESSAGE value="Update ueditor" />
+    <MESSAGE value="文章列表的分页展示" />
+    <MESSAGE value="添加Bootstrap字体文件" />
+    <MESSAGE value="新增文章分类模型重新生成表结构" />
+    <MESSAGE value="删除不需要的图片资源" />
+    <MESSAGE value="Update .gitignore" />
+    <MESSAGE value="为注册功能增加部分注释;上传code目录；新增test.py用于功能测试" />
+    <MESSAGE value="增加注释;更新README.md" />
+    <MESSAGE value="新增404页面" />
+    <MESSAGE value="404找不到页面" />
+    <MESSAGE value="刷新页面实时更新分类信息" />
+    <MESSAGE value="更新404页面" />
+    <MESSAGE value="优化登录功能" />
+    <MESSAGE value="优化添加文章功能" />
+    <MESSAGE value="新建优化添加文章功能的PR" />
+    <MESSAGE value="优化文章分类显示" />
+    <MESSAGE value="完成文章的删除功能" />
+    <MESSAGE value="文章的编辑信息的展示" />
+    <MESSAGE value="完成文章编辑功能" />
+    <MESSAGE value="访问权限控制功能的实现" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="添加数据库和Python依赖文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加数据库和Python依赖文件" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="626" y="189" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594811842627">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="626" y="189" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1594811842627" />
+    <state x="674" y="347" width="561" height="415" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593837422535">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="674" y="347" width="561" height="415" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1593837422535" />
+    <state x="580" y="319" width="749" height="471" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1593960896990">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="580" y="319" width="749" height="471" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593960896990" />
+    <state x="614" y="115" width="682" height="878" key="#manage" timestamp="1594610535338">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="614" y="115" width="682" height="878" key="#manage/0.28.1920.1052@0.28.1920.1052" timestamp="1594610535338" />
+    <state x="459" y="28" width="991" height="1052" key="CommitChangelistDialog2" timestamp="1594096999480">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="459" y="28" width="991" height="1052" key="CommitChangelistDialog2/0.28.1920.1052@0.28.1920.1052" timestamp="1594096999480" />
+    <state x="977" y="411" width="424" height="485" key="FileChooserDialogImpl" timestamp="1601197716433">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state x="733" y="379" width="424" height="485" key="FileChooserDialogImpl/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593967854147" />
+    <state x="733" y="313" width="424" height="485" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1594751291743" />
+    <state x="3293" y="360" key="FileChooserDialogImpl/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1593958258203" />
+    <state x="977" y="411" width="424" height="485" key="FileChooserDialogImpl/0.28.2560.1412@0.28.2560.1412" timestamp="1601197716433" />
+    <state width="2506" height="418" key="GridCell.Tab.0.bottom" timestamp="1601148982841">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state width="1866" height="181" key="GridCell.Tab.0.bottom/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593969005038" />
+    <state width="1866" height="221" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1594811979042" />
+    <state width="1866" height="296" key="GridCell.Tab.0.bottom/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1593955274389" />
+    <state width="2506" height="418" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1601148982841" />
+    <state width="1866" height="176" key="GridCell.Tab.0.bottom/0.28.4480.1412@0.28.4480.1412" timestamp="1594117136356" />
+    <state width="2506" height="418" key="GridCell.Tab.0.center" timestamp="1601148982841">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state width="1866" height="181" key="GridCell.Tab.0.center/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593969005038" />
+    <state width="1866" height="221" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1594811979042" />
+    <state width="1866" height="296" key="GridCell.Tab.0.center/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1593955274389" />
+    <state width="2506" height="418" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1601148982841" />
+    <state width="1866" height="176" key="GridCell.Tab.0.center/0.28.4480.1412@0.28.4480.1412" timestamp="1594117136355" />
+    <state width="2506" height="418" key="GridCell.Tab.0.left" timestamp="1601148982841">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state width="1866" height="181" key="GridCell.Tab.0.left/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593969005038" />
+    <state width="1866" height="221" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1594811979042" />
+    <state width="1866" height="296" key="GridCell.Tab.0.left/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1593955274389" />
+    <state width="2506" height="418" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1601148982841" />
+    <state width="1866" height="176" key="GridCell.Tab.0.left/0.28.4480.1412@0.28.4480.1412" timestamp="1594117136355" />
+    <state width="2506" height="418" key="GridCell.Tab.0.right" timestamp="1601148982841">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state width="1866" height="181" key="GridCell.Tab.0.right/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593969005038" />
+    <state width="1866" height="221" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1594811979042" />
+    <state width="1866" height="296" key="GridCell.Tab.0.right/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1593955274389" />
+    <state width="2506" height="418" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1601148982841" />
+    <state width="1866" height="176" key="GridCell.Tab.0.right/0.28.4480.1412@0.28.4480.1412" timestamp="1594117136355" />
+    <state width="1866" height="338" key="GridCell.Tab.1.bottom" timestamp="1593843061158">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1866" height="338" key="GridCell.Tab.1.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1593843061158" />
+    <state width="1866" height="338" key="GridCell.Tab.1.center" timestamp="1593843061158">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1866" height="338" key="GridCell.Tab.1.center/0.28.1920.1052@0.28.1920.1052" timestamp="1593843061158" />
+    <state width="1866" height="338" key="GridCell.Tab.1.left" timestamp="1593843061157">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1866" height="338" key="GridCell.Tab.1.left/0.28.1920.1052@0.28.1920.1052" timestamp="1593843061157" />
+    <state width="1866" height="338" key="GridCell.Tab.1.right" timestamp="1593843061158">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1866" height="338" key="GridCell.Tab.1.right/0.28.1920.1052@0.28.1920.1052" timestamp="1593843061158" />
+    <state x="588" y="244" width="1037" height="731" key="SettingsEditor" timestamp="1601197719875">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state x="441" y="189" width="1037" height="731" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1594751298007" />
+    <state x="588" y="244" width="1037" height="731" key="SettingsEditor/0.28.2560.1412@0.28.2560.1412" timestamp="1601197719875" />
+    <state x="802" y="461" width="306" height="186" key="VCS.ChangelistChooser" timestamp="1594094444538">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="802" y="461" width="306" height="186" key="VCS.ChangelistChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1594094444538" />
+    <state x="836" y="461" width="237" height="186" key="VCS.EditChangelistDialog" timestamp="1594094496265">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="836" y="461" width="237" height="186" key="VCS.EditChangelistDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1594094496265" />
+    <state x="730" y="416" width="450" height="311" key="com.intellij.database.actions.DdlActions$CommentOnObjectAction$1" timestamp="1593959886214">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="730" y="416" width="450" height="311" key="com.intellij.database.actions.DdlActions$CommentOnObjectAction$1/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593959886214" />
+    <state x="839" y="416" width="375" height="285" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1593960178520">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="839" y="416" width="375" height="285" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593960178520" />
+    <state x="839" y="416" width="375" height="282" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.28.1920.1052@0.28.1920.1052" timestamp="1593708567663" />
+    <state x="906" y="242" width="197" height="288" key="com.intellij.database.actions.DdlActions$ModifyObject$1" timestamp="1593958542949">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="906" y="242" width="197" height="288" key="com.intellij.database.actions.DdlActions$ModifyObject$1/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593958542949" />
+    <state x="3416" y="756" width="197" height="288" key="com.intellij.database.actions.DdlActions$ModifyObject$1/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1593958220239" />
+    <state x="543" y="212" width="824" height="685" key="com.intellij.database.dbimport.ImportDialog" timestamp="1593960037851">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="543" y="212" width="824" height="685" key="com.intellij.database.dbimport.ImportDialog/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593960037851" />
+    <state x="791" y="312" width="543" height="497" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1593959895456">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="791" y="312" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.28.1920.1052/2560.0.1920.1080@0.28.1920.1052" timestamp="1593959895456" />
+    <state x="3351" y="292" width="543" height="497" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.28.2560.1412/2560.0.1920.1080@2560.0.1920.1080" timestamp="1593951895130" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/news_cms$manage.coverage" NAME="manage Coverage Results" MODIFIED="1601148899230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/article_cms$manage.coverage" NAME="manage Coverage Results" MODIFIED="1600948789686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/article_cms$create_app.coverage" NAME="create_app Coverage Results" MODIFIED="1593708247058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/news_cms$news_cms.coverage" NAME="news_cms Coverage Results" MODIFIED="1600948901992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/article_cms$forms.coverage" NAME="forms Coverage Results" MODIFIED="1593865973885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/article_cms$views.coverage" NAME="views Coverage Results" MODIFIED="1593627745424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/article_cms$models.coverage" NAME="models Coverage Results" MODIFIED="1593960191224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/article_cms$test.coverage" NAME="test Coverage Results" MODIFIED="1593963166169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

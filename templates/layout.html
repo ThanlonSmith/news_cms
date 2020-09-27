@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <title>新闻内容管理系统</title>
+    {% block css %}{% endblock %}
+</head>
+<body>
+<nav class="navbar navbar-light" style="background-color: #d8534f;">
+    <div class="container">
+        <a class="navbar-brand" style="font-weight: bold;color: white" href="/article/list/1/">新闻内容管理系统</a>
+        {% if not session.get('user') %}
+            <a class="btn btn-primary navbar-btn pull-right"
+               style="font-weight:bold;background-color:#d8534f;border-color: white " href="/logout/">
+                <span class="glyphicon glyphicon-log-out"></span>
+                注册
+            </a>
+        {% else %}
+            <a class="btn btn-primary navbar-btn pull-right"
+               style="font-weight:bold;background-color:#d8534f;border-color: white " href="/logout/"
+               onclick="return confirm('确认退出登录？')">
+                <span class="glyphicon glyphicon-log-out"></span>
+                退出
+            </a>
+            <span class="btn btn-primary navbar-btn pull-right"
+                  style="font-weight:bold;background-color:#d8534f;border-color: white;margin-right: 8px">
+                <span class="glyphicon glyphicon-user"></span>
+                {{ session.get('user',None) }}
+            </span>
+        {% endif %}
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style="padding: 0">
+            {% for msg in get_flashed_messages(category_filter=['ok']) %}
+                <div class="alert alert-success alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <strong>{{ msg }}</strong>
+                </div>
+            {% endfor %}
+            {% for msg in get_flashed_messages(category_filter=['error']) %}
+                <div class="alert alert-success alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <strong>{{ msg }}</strong>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="col-md-3" style="padding: 0;padding-right: 6px">
+            {% include "menus.html" %}
+        </div>
+        <div class="col-md-9" style="padding: 0">
+            <div class="panel panel-default">
+                <div class="panel-heading">{{ title|safe }}</div>
+                <div class="panel-body">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+
+            <div class="container-fluid"
+                 style="color: #b2bcc5; margin-top: 20px; margin-bottom: 2px">
+                <div class="row">
+                    <div class="col-md-12  text-center" style="padding: 40px">
+                        Copyright © 2020-2022&nbsp; <a target="_blank" href="pythoneers.cn">pythoneers.cn</a>.
+                        All
+                        Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+<!--<script src="{{ url_for('static',filename='js/popper.min.js') }}"></script>-->
+<script src="{{ url_for('static',filename='js/bootstrap.js') }}"></script>
+<script src="{{ url_for('static',filename='js/holder.js') }}"></script>
+{% block js %}{% endblock %}
+</body>
+</html>

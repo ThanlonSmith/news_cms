@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% import "page.html" as pg %}
+{% block css %}
+    <style>
+        .table td, .table th {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+            z-index: 2;
+            color: #fff;
+            background-color: #d8534f;
+            border-color: #d8534f;
+        }
+
+        .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+            background-color: #d8534f;
+            border-color: #d8534f;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>标题</th>
+            <th>分类</th>
+            <th>封面</th>
+            <th>作者</th>
+            <th>发布时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        {% for v in page_data.items %}
+            <tr>
+                <td style="vertical-align: middle">{{ v.title }}</td>
+                <td style="vertical-align: middle">{{ cate_id_name[v.cate_id-1][1] }}</td>
+                <td style="vertical-align: middle">
+                    <!--这里可以使用JS显示上传的图像<img data-src="holder.js/75x40">-->
+                    <img src="/static/images/uploads/{{ v.logo }}" style="width: 75px;height: 40px;">
+                </td>
+                <td style="vertical-align: middle">{{ session['user'] }}</td>
+                <td style="vertical-align: middle">{{ v.addtime }}</td>
+                <td style="vertical-align: middle">
+                    <a href="{{ url_for('article_edit',id=v.id) }}" class="btn btn-sm btn-warning">编辑</a>
+                    <a href="/article/del/{{ v.id }}" onclick="return confirm('确认删除该篇新闻《{{ v.title }}》？')"
+                       class="btn btn-sm btn-danger">删除</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+    {{ pg.page(page_data,'article_list') }}
+{% endblock %}
+{% block js %}
+    <script>
+        $(document).ready(function () {
+            $("#m1").addClass("active");
+        });
+    </script>
+{% endblock %}
